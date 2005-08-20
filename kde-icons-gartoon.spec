@@ -3,16 +3,14 @@ Summary:	KDE icons - %{_name}
 Summary(pl):	Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	1.3
-Release:	0.1
-License:	DESIGN SCIENCE LICENSE
+Release:	0.2
+License:	Design Science
 Group:		Themes
-Source0:	%{_name}-%{version}.tar.bz2
-# Source0-md5:	90ddfb75d023ffb1887c824f510c21b8
-Source0:	http://www.nasland.nu/gartoon/ICONS-Gartoon-PNG-v%{version}.tar.bz2
-# Source0-md5:	90ddfb75d023ffb1887c824f510c21b8
+Source0:	http://www.nasland.nu/gartoon/ICONS-Gartoon-SVG-v%{version}.tar.bz2
+# NoSource0-md5:	6b9453198ca1e29fbd52b033fa9fd82a
 NoSource:	0
-Source1:	http://www.nasland.nu/gartoon/ICONS-Gartoon.Blue-PNG-v%{version}.tar.bz2
-# Source1-md5:	8f75478d3fdde9a04aeba5b448094b02
+Source1:	http://www.nasland.nu/gartoon/ICONS-Gartoon.Blue-SVG-v%{version}.tar.bz2
+# NoSource1-md5:	4081cce286fc3bf21886001d47e6eb22
 NoSource:	1
 URL:		http://www.kde-look.org/content/show.php?content=17362
 Requires:	kdelibs >= 9:3.3
