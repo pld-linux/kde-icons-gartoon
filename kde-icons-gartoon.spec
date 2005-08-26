@@ -20,12 +20,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Fun looking icons with bright colors and bold outlines.
 
+%description -l pl
+¦miesznie wygl±daj±ce ikony z jasnymi kolorami i grubymi liniami
+otaczaj±cymi.
+
 %package blue
 Summary:	KDE icons - %{_name} blue
+Summary(pl):	Motyw ikon do KDE - %{_name} blue
 Group:		Themes
 
 %description blue
 Fun looking icons with bright colors and bold outlines. Blue theme.
+
+%description blue -l pl
+¦miesznie wygl±daj±ce ikony z jasnymi kolorami i grubymi liniami
+otaczaj±cymi. Motyw niebieski.
 
 %prep
 
@@ -44,4 +53,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/%{_name}
 
 %files blue
+%defattr(644,root,root,755)
 %{_iconsdir}/%{_name}-blue
