@@ -1,5 +1,3 @@
-# TODO
-# - merge to kde-theme-gartoon and discard  this spec
 %define		_name gartoon
 Summary:	KDE icons - %{_name}
 Summary(pl):	Motyw ikon do KDE - %{_name}
