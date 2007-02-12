@@ -1,6 +1,6 @@
 %define		_name gartoon
 Summary:	KDE icons - %{_name}
-Summary(pl):	Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	1.3
 Release:	0.2
@@ -20,21 +20,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Fun looking icons with bright colors and bold outlines.
 
-%description -l pl
-¦miesznie wygl±daj±ce ikony z jasnymi kolorami i grubymi liniami
-otaczaj±cymi.
+%description -l pl.UTF-8
+Åšmiesznie wyglÄ…dajÄ…ce ikony z jasnymi kolorami i grubymi liniami
+otaczajÄ…cymi.
 
 %package blue
 Summary:	KDE icons - %{_name} blue
-Summary(pl):	Motyw ikon do KDE - %{_name} blue
+Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name} blue
 Group:		Themes
 
 %description blue
 Fun looking icons with bright colors and bold outlines. Blue theme.
 
-%description blue -l pl
-¦miesznie wygl±daj±ce ikony z jasnymi kolorami i grubymi liniami
-otaczaj±cymi. Motyw niebieski.
+%description blue -l pl.UTF-8
+Åšmiesznie wyglÄ…dajÄ…ce ikony z jasnymi kolorami i grubymi liniami
+otaczajÄ…cymi. Motyw niebieski.
 
 %prep
 
