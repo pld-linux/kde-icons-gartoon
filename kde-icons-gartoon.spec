@@ -1,6 +1,6 @@
 %define		_name gartoon
 Summary:	KDE icons - %{_name}
-Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name}
+Summary(pl.UTF-8):	Motyw ikon do KDE - %{_name}
 Name:		kde-icons-%{_name}
 Version:	1.3
 Release:	0.2
@@ -26,7 +26,7 @@ otaczającymi.
 
 %package blue
 Summary:	KDE icons - %{_name} blue
-Summary(pl.UTF-8):   Motyw ikon do KDE - %{_name} blue
+Summary(pl.UTF-8):	Motyw ikon do KDE - %{_name} blue
 Group:		Themes
 
 %description blue
